@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heade {
+    height: 205px;
+    width: auto;
+    /* border: 5px solid black; */
+   
+}
+
+.heade .call {
+    height: 30px;
+    width: 200px;
+    /* border: 3px solid black; */
+    margin: 10px;
+    position: relative;
+    left: 190px;
+    text-decoration: none;
+}
+
+.phone
+{
+    color: rgb(201, 46, 46);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.phone:hover
+{
+    color: black;
+}
+
+.call i
+{
+    color: black;
+}
+
+.heade .twitt {
+    /* height: 30px; */
+    height: 30px;
+    width: 28px;
+    /* border: 3px solid black; */
+    margin: 10px;
+    position: relative;
+    float: right;
+    bottom: 55px;
+    right: 175px;
+    font-size: 26px;
+
+}
+
+.heade .facebook {
+    height: 30px;
+    width: 28px;
+    /* border: 3px solid black; */
+    /* margin: 10px; */
+    position: relative;
+    float: right;
+    bottom: 45px;
+    right: 180px;
+    font-size: 26px;
+}
+
+.heade .com_logo {
+    height: 140px;
+    width: 330px;
+    clear: both;
+    /* float: left; */
+    position: relative;
+    /* border: 3px solid black; */
+    bottom: 52px;
+    left: 190px;
+    
+}
+
+.heade .buss_logo {
+    height: 25px;
+    width: 270px;
+    z-index: 1;
+    /* border: 3px solid black; */
+    /* float: left; */
+    position: relative;
+    left: 620px;
+    bottom: 150px;
+}
+
+.heade .contact {
+    height: 136px;
+    width: 247px;
+    /* border: 3px solid black; */
+    float: right;
+    position: relative;
+    right: 174px;
+    bottom: 208px;
+}
+
+.heade .contact p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(26, 111, 157);
+    float: right;
+    font-weight: bold;
+}
+
+.heade .contact em
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(45, 45, 113);
+    clear: both;
+    float: right;
+}
+
+.heade .contact h3
+{
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(201, 46, 46);
+    clear: both;
+    float: right;
+}
+
+.heade .contact h3:hover
+{
+    color: black;
+}
+
+.menu
+{
+    height: 50px;
+    width: auto;
+    /* border: 2px solid black; */
+    background-color:rgb(17, 81, 115);
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.menu ul
+{
+    width: auto;
+    display: inline;
+    /* margin-top: 15px; */
+    position: relative;
+    top: 10px;
+    padding: 0;
+    margin: 0 0 0 350px;
+}
+.menu ul li
+{
+    display: inline;
+    font-size: 20px;
+    /* margin: 0 15px; */
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px 16px 15px;
+    position: relative;
+}
+.menu ul li a:hover{
+    background-color: rgb(201, 46, 46);
+}
+/* .menu ul li ul li
+{
+    
+} */
+.menu ul li ul li a
+{
+    background-color: rgb(17, 81, 115);
+    position: relative;
+    right: 460px;
+    top: 40px;
+}
+.menu ul li ul li
+{
+    margin: 0;
+    padding: 0;
+}
+
+.mission
+{
+    position: relative;
+    /* display: block; */
+    /* float: left; */
+}
+.vission
+{
+    position: relative;
+    top: 49px;
+    right: 90px;
+}
+li.about {
+    margin-right: -537px;
+}
+
+.menu ul li ul li{
+    visibility: hidden;
+}
+.menu ul:hover ul li
+{
+    visibility: visible;
+}
